@@ -34,6 +34,7 @@
     "cfpush": "cfpush"
   },
   "dependencies": {
+    "@dynatrace/oneagent": "^1.125.216-1.0.3",
     "abacus-breaker": "file:../../../abacus/lib/utils/breaker",
     "abacus-cluster": "file:../../../abacus/lib/utils/cluster",
     "abacus-debug": "file:../../../abacus/lib/utils/debug",
@@ -41,8 +42,8 @@
     "abacus-moment": "file:../../../abacus/lib/utils/moment",
     "abacus-oauth": "file:../../../abacus/lib/utils/oauth",
     "abacus-perf": "file:../../../abacus/lib/utils/perf",
-    "abacus-retry": "file:../../../abacus/lib/utils/retry",
     "abacus-request": "file:../../../abacus/lib/utils/request",
+    "abacus-retry": "file:../../../abacus/lib/utils/retry",
     "abacus-router": "file:../../../abacus/lib/utils/router",
     "abacus-throttle": "file:../../../abacus/lib/utils/throttle",
     "abacus-urienv": "file:../../../abacus/lib/utils/urienv",

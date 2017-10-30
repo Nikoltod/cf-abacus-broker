@@ -34,6 +34,7 @@
     "cfpush": "cfpush"
   },
   "dependencies": {
+    "@dynatrace/oneagent": "^1.125.216-1.0.3",
     "abacus-batch": "file:../../../abacus/lib/utils/batch",
     "abacus-breaker": "file:../../../abacus/lib/utils/breaker",
     "abacus-dbclient": "file:../../../abacus/lib/utils/dbclient",
