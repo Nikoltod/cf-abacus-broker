@@ -42,7 +42,7 @@ const getServiceInstanceGuid = (serviceName) =>
 
 const getServiceStatus = (serviceName) => {
   const serviceInfo = execute(`cf service ${serviceName}`).toString().trim();
-  return serviceInfo.match(/Last Operation\nStatus: (.*)/)[1];
+  return serviceInfo.match(new RegExp(/status: (.*)/, 'i'))[1];
 };
 
 const bindServiceInstance = (serviceName, appName) =>
